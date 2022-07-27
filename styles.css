@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+ background-color: silver;
+    font-family: 'Cormorant SC', serif;
+    height: 100vh;
+     
+}
+
+.sidebar nav {
+
+    padding: 45px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.main {
+    
+        
+     
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    
+    height: 50vh;
+    width: 110vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 88px auto ;
+
+}
+
+.devpic img {
+    height: 50vh;
+    margin-right: 75px;
+
+}
+
+.devinfo {
+    font-size : 16px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.hello {
+
+    font-size: 3em ;
+    Font-family: 'Cormorant SC', serif;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    Font-family: 'Cormorant SC', serif;
+}
+
+.about {
+    font-size: 3em ;
+    Font-family: 'Cormorant SC', serif;
+}
+
+.moreabout {
+    font-size: 20px ;
+    margin-top: 34px
+}
+
+.buttons {
+    margin-top: 2.2em;
+}
+
+.buttons button {
+
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+
+    font-size: 15px;
+    margin: 0 3px;
+}
+
+.buttons button:hover {
+    color: white;
+    background-color: white;
+    color: dodgerblue;
+}
+
+.contactform {
+    padding: 0 34px;
+   
+    margin: 0 214px ;
+
+}
+
+.contactform h1 {
+
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0;
+    padding: 3px
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: rgb(85, 71, 210);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 5 px 0;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(32, 109, 186);
+
+    font-size: 10px;
+    margin: 0 3px;
+}
+
+.blogitem {
+    margin: 20px;
+
+}
+.blogcontainer{
+    margin : 0 176px ;
+}
+.h1 {
+    font-family: 'Cormorant SC', serif;
+    margin: 23px;
+}
+
+.blogcontainer h2 {
+    font-family: 'Cormorant SC', serif;
+}
+
+.intro h2 {
+    font-family: 'Cormorant SC', serif;
+    margin: 12px;
+}
+
+.intro p {
+    margin: 12px;
+}
+
+.intro{
+    margin :0 160px ;
+}
+.skillcontainer {
+
+    padding: 12px;
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: rgb(131, 204, 131);
+    border: 2px solid black
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: 'Cormorant SC', serif;
+    font: weight 900px;
+    ;
+}
+
+.hundred {
+    width: 265px;
+}
+
+.fifty {
+    width: 125px;
+}
+
+.t5 {
+    width: 74px;
+   background-color: yellowgreen;
+}
+
+.hamburger{
+position: absolute ;
+cursor : pointer ;
+top :10px ;
+left :10px
+
+}
+.cross {
+
+    margin-left : 100px ;
+}
+
+.sidebargo{
+    transform : translate( -443px ,0px);
+    position : absolute ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media( max-width: 1315px) {  
+    *{
+
+    }
+    
+
+
+    .devpic{
+        display : none ;
+
+    }
+    .intro,.blogcontainer,.contactform{
+        margin : 50px 8px ;
+    }
+    /*.sidebar{
+      
+        transform : translate( -443px ,0px);
+        position : absolute ;
+    }
+
+
+ */}
